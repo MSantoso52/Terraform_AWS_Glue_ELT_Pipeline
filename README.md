@@ -18,6 +18,11 @@ To follow along this project need to be availabled on system:
   unzip awscliv2.zip
   sudo ./aws/install
   ```
+- Vim installed (optional)
+  ```bash
+  sudo apt install vim
+  vimm --version
+  ```
 # *Project Flow*
 1. Create a Working Directory
    ```bash
