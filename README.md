@@ -37,7 +37,7 @@ To follow along this project need to be availabled on system:
    # run
    terraform init
    ```
-   ![terraform init screenshot]([screenshot/"terraform(https://github.com/MSantoso52/Terraform_AWS_Glue_ELT_Pipeline/blob/main/screenshot/terraform%20init.png))
+   ![terraform init screenshot](screenshot/terraform init.png)
 5. Define Variables (Optional but Good Practice)
    ```bash
    # create file variables.tf
