@@ -75,6 +75,7 @@ To follow along this project need to be availabled on system:
       ![aws glue run](screenshot/aws_glue_run.png)
     Check output:
     * In S3 > aws-etl-app-output > transformed_data/ > Download Parquet files (use tools like Parquet viewer or Pandas to inspect).
+      ![aws glue result](screenshot/aws_glue_run_result.png)
 15. Cleanup (Important!)
     ```bash
     terraform destroy
