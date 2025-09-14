@@ -61,7 +61,7 @@ To follow along this project need to be availabled on system:
     terraform apply
     ```
     AWS S3 Bucket result:
-    ![aws se screenshot](screenshot/S3_Bucket.png)
+    ![aws s3 screenshot](screenshot/S3_Bucket.png)
 13. Run the ETL Pipeline
     ```bash
     # Upload sample data to input bucket
