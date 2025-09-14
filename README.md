@@ -37,7 +37,7 @@ To follow along this project need to be availabled on system:
    # run
    terraform init
    ```
-   ![terraform init screenshot](screenshot/aws_glue_run.png)
+   ![terraform init screenshot](screenshot/terraform_init.png)
 5. Define Variables (Optional but Good Practice)
    ```bash
    # create file variables.tf
@@ -60,6 +60,7 @@ To follow along this project need to be availabled on system:
 
     terraform apply
     ```
+    ![aws se screenshot](screenshot/S3_Bucket.png)
 13. Run the ETL Pipeline
     ```bash
     # Upload sample data to input bucket
