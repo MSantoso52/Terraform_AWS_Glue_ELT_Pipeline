@@ -20,6 +20,10 @@ To follow along this project need to be availabled on system:
   unzip awscliv2.zip
   sudo ./aws/install
   ```
+  Configure AWS CLI
+  ```bash
+  aws configure
+  ```
 - Vim installed (optional)
   ```bash
   sudo apt install vim
