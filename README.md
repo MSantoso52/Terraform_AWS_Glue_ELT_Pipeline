@@ -2,7 +2,7 @@
 ELT Pipeline using AWS Glue with Terraform infrastructure configuration
 ![screenshot of a workflow](screenshot/terraform_workflow.png)
 # *Overview*
-Project repo to demonstrate using Terraform to manage resource AWS S3 infrasture and utilize AWS Glue fot ELT Pipeline. Terraform is powerful tool to define, provision, manage cloud infrasture using code (Infrastucture as Code) with simple way. This project will create 3 S3 bucket: bucket-input -- data source, bucket-ouput -- result ETL, bucket-scripts -- ETL code placing. ETL procress itself done in AWS Glue run. 
+Project repo to demonstrate using Terraform to manage resource AWS S3 infrastructure and utilize AWS Glue fot ELT Pipeline. Terraform is powerful tool to define, provision, manage cloud infrasture using code (Infrastucture as Code) with simple way. This project will create 3 S3 bucket: bucket-input -- data source, bucket-ouput -- result ETL, bucket-scripts -- ETL code placing. ETL procress itself done in AWS Glue run. 
 # *Prerequisites*
 To follow along this project need to be availabled on system:
 - AWS account
