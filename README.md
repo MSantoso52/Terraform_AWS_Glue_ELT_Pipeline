@@ -20,10 +20,51 @@ To follow along this project need to be availabled on system:
   ```
 # *Project Flow*
 1. Create a Working Directory
-2. Initialize Terraform
-3. Define Variables (Optional but Good Practice)
-4. Create the ETL Script
-5. Define Resources in Terraform
-6. Plan and Apply
-7. Run the ETL Pipeline
-8. Cleanup (Important!)
+   ```bash
+   mkdir aws_glue_etl
+   cd aws_glue_etl
+   ```
+3. Initialize Terraform
+   ```bash
+   # create file provider
+   vim provider.tf
+
+   # run
+   terraform init
+   ```
+5. Define Variables (Optional but Good Practice)
+   ```bash
+   # create file variables.tf
+   vim variables.tf
+   ```
+7. Create the ETL Script
+   ```bash
+   # create file elt_script.py
+   vim etl_script.py
+   ```
+9. Define Resources in Terraform
+    ```bash
+    # create file main.tf
+    vim main.tf
+    ```
+11. Plan and Apply
+    ```bash
+    # run
+    terraform plan
+
+    terraform apply
+    ```
+13. Run the ETL Pipeline
+    ```bash
+    # Upload sample data to input bucket
+    aws s3 cp sales_record.csv s3://aws-etl-app-input/
+    ```
+    Run the Glue job:
+    * In AWS Glue Console > Jobs > Select your job > Actions > Run job.
+    * Wait 2-5 minutes (Glue spins up Spark under the hood).
+    Check output:
+    * In S3 > aws-etl-app-output > transformed_data/ > Download Parquet files (use tools like Parquet viewer or Pandas to inspect).
+15. Cleanup (Important!)
+    ```bash
+    terraform destroy
+    ```
