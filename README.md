@@ -24,6 +24,7 @@ To follow along this project need to be availabled on system:
   ```bash
   aws configure
   ```
+  ![aws cli screenshot](screenshot/aws_configure.png)
 - Vim installed (optional)
   ```bash
   sudo apt install vim
