@@ -7,7 +7,7 @@ Project repo to demonstrate using Terraform to manage resource AWS S3 infrastruc
 To follow along this project need to be availabled on system:
 - AWS account
  <!-- newline -->
-  &nbsp;&nbsp;&nbsp;&nbsp;Go to [aws.amazon.com](https://aws.amazon.com/) and create account
+  >>Go to [aws.amazon.com](https://aws.amazon.com/) and create account
 - Terraform installed
   ```bash
   wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
