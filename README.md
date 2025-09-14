@@ -67,6 +67,7 @@ To follow along this project need to be availabled on system:
     # Upload sample data to input bucket
     aws s3 cp sales_record.csv s3://aws-etl-app-input/
     ```
+    ![aws s3 script bucket](screenshot/S3_etl_script.png)
     Run the Glue job:
     * In AWS Glue Console > Jobs > Select your job > Actions > Run job.
     * Wait 2-5 minutes (Glue spins up Spark under the hood).
