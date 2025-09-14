@@ -72,6 +72,7 @@ To follow along this project need to be availabled on system:
     Run the Glue job:
     * In AWS Glue Console > Jobs > Select your job > Actions > Run job.
     * Wait 2-5 minutes (Glue spins up Spark under the hood).
+      ![aws glue run](screenshot/aws_glue_run.png)
     Check output:
     * In S3 > aws-etl-app-output > transformed_data/ > Download Parquet files (use tools like Parquet viewer or Pandas to inspect).
 15. Cleanup (Important!)
